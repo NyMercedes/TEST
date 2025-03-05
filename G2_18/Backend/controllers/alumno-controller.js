@@ -10,7 +10,7 @@ AlumnoController.getAll = (req, res, next) => {
 		{
 			let locals = {
 				title : 'Error al consultar la base de datos',
-				description : 'Error de Sintaxis SQL',
+				description : 'Error de Zintaxiz SQL',
 				error : err
 			}
 
